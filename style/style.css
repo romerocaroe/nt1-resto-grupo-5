@@ -72,17 +72,15 @@ h3{
   transform: translateY(0);
 }
 
-.card-me {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
-  margin-top:10px;
-  margin-bottom:10px;
   display: inline-block;
 }
 
-.card-me:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0.1,0.2,0.2,0.2);
 }
 
 .listContainer {
@@ -138,4 +136,12 @@ h3{
       position: relative;
       color: red;
       top: 1px;
+  }
+
+  .card-img-top{
+    max-height: 16em;
+  }
+
+  .col-12 {
+    padding: 1em;
   }
