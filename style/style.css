@@ -28,7 +28,11 @@ h2{
   text-align:center;
 }
 
-h3{
+h1 {
+  text-align:center;
+}
+
+p {
   text-align:center;
 }
 
@@ -108,7 +112,7 @@ h3{
   padding: 10px;
 }
 
-.mapid { height: 250px; max-height: 500px; min-height: 180px}
+.mapid { height: 300px; max-height: 500px; min-height: 180px}
 
 #button-heart {
     font-size: 24px;
